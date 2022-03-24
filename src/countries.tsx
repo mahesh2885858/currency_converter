@@ -1,4 +1,4 @@
-const currencies: any = {
+const currencies: { [key: string]: string } = {
   linch: "1inch Network",
   ada: "Cardano",
   aed: "United Arab Emirates Dirham",
