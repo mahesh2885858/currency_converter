@@ -15,7 +15,6 @@ const Reducer = (state: typeof State, action: actionType): typeof State => {
   switch (action.type) {
     case "FIRST_LOAD":
       const compute = state.numToConvert * state.rate;
-      console.log(compute);
       return {
         ...state,
         numToConvert: 1,

@@ -22,7 +22,6 @@ body {
 }
 .converter-container {
   width: 90%;
-  //   border: blue solid;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,13 +40,15 @@ body {
   }
 }
 .switch {
-  //   background-color: red;
   padding: 0.5em;
   background: #eee;
   border-radius: 0.5em;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 5px 5px 5px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 720px) {
   .converter-container {
